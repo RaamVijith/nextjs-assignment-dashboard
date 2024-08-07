@@ -15,11 +15,11 @@ const ProgressSteps = () => {
       {steps.map((step, index) => (
         <div key={index} className="flex items-center">
           <div
-            className={`flex items-center justify-center px-4 py-2 ${
+            className={`flex items-center justify-center px-4 py-2 my-3   ${
               step.status === 'current'
                 ? 'bg-blue-500 text-white'
                 : 'bg-gray-100 text-gray-500'
-            } rounded-l-full rounded-r-full`}
+            } `}
           >
             {step.name}
           </div>

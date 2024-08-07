@@ -16,6 +16,11 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Input } from "@/components/ui/input"
 import { ModeToggle } from "./mode-toggle"
+import {
+    Mail,
+    BadgeHelp,
+  Bell
+} from "lucide-react";
 
 const Header = () => {
   return (
@@ -34,11 +39,13 @@ const Header = () => {
               </div>
             </form>
           </div>
-          <ModeToggle/>
+          <div className="flex flex-row text-gray-600 gap-1 items-center text-sm"><Bell className="w-4 h-4"/> Notification</div>
+          <div className="flex flex-row text-gray-600 gap-1 items-center text-sm"><BadgeHelp className="w-4 h-4"/> Help center</div>
+
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="secondary" size="icon" className="rounded-full">
-                <CircleUser className="h-5 w-5" />
+                <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L2pvYjEwMzQtZWxlbWVudC0wNi0zOTcucG5n.png"/>
                 <span className="sr-only">Toggle user menu</span>
               </Button>
             </DropdownMenuTrigger>
@@ -51,6 +58,8 @@ const Header = () => {
               <DropdownMenuItem>Logout</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
+          <ModeToggle/>
+
           
         </header>
     </>
