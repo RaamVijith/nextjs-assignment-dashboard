@@ -169,7 +169,7 @@ export default function TabsDemo() {
                 <p className="text-xs text-muted-foreground ">
                   Close Date: 20 july 2024
                 </p>
-                <img src='' />
+                <img src='https://github.com/RaamVijith/nextjs-assignment-dashboard/blob/master/src/assets/draw.png?raw=true' />
               </div>
             </div>
 
