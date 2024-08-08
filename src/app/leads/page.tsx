@@ -48,9 +48,9 @@ import img1 from '../../assets/draw.png';
 
 export default function TabsDemo() {
     return (
-        <Tabs className="">
-            <TabsList className="flex w-full  justify-between px-10 rounded-none bg-white">
-                <div className="font-semibold text-black">Leads</div>
+        <Tabs defaultValue="account" className="bg-card">
+            <TabsList className="flex w-full bg-card justify-between px-10 rounded-none">
+                <div className="font-semibold text-card-foreground">Leads</div>
                 <div>
                     <TabsTrigger value="account">
                         {" "}
@@ -84,8 +84,8 @@ export default function TabsDemo() {
             <Button>Save changes</Button>
           </CardFooter>
         </Card> */}
-                <div className="flex bg-slate-100 w-full flex-row">
-                    <div className="flex flex-col w-1/4 bg-white content-center text-center p-10">
+                <div className="flex bg-card w-full flex-row">
+                    <div className="flex flex-col w-1/4 bg-card content-center text-center p-10">
                         <div className="flex flex-row justify-center items-center gap-3">
                             <img
                                 src="https://i.pinimg.com/1200x/73/89/e3/7389e3060eb4371a1a25bcb8ae4ad110.jpg"
@@ -171,7 +171,7 @@ export default function TabsDemo() {
 
                     {/* Next component */}
                     <div className="  w-full">
-                        <div className=" m-3 bg-white w-9/10 p-3">
+                        <div className=" m-3 bg-muted/50 w-9/10 p-3">
                             <h4 className="text-s font-semibold tracking-tight">
                                 Deal Stage
                             </h4>
@@ -196,7 +196,7 @@ export default function TabsDemo() {
                             </div>
                         </div>
                         {/* New component */}
-                        <div className=" m-3 bg-white w-9/10 p-3 flex flex-row">
+                        <div className=" m-3 bg-muted/50 w-9/10 p-3 flex flex-row">
                             <div className="flex flex-col w-3/12 gap-5 border-r-2 pl-5 pt-3 cursor-pointer">
                                 <h4 className="text-s font-semibold tracking-tight text-gray-700 hover:text-blue-700"> Categories </h4>
                                 <h4 className="text-s font-semibold tracking-tight text-gray-700 hover:text-blue-700"> Activity </h4>
