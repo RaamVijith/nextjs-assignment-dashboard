@@ -44,7 +44,7 @@ export default function DashboardPage() {
           <CardHeader className="space-y-0 pb-2">
             <CardDescription>Today</CardDescription>
             <CardTitle className="text-4xl tabular-nums">
-              12,584{" "}
+              12584
               <span className="font-sans text-sm font-normal tracking-normal text-muted-foreground">
                 steps
               </span>
@@ -156,11 +156,11 @@ export default function DashboardPage() {
           </CardContent>
           <CardFooter className="flex-col items-start gap-1">
             <CardDescription>
-              Over the past 7 days, you have walked{" "}
+              Over the past 7 days, you have walked
               <span className="font-medium text-foreground">53,305</span> steps.
             </CardDescription>
             <CardDescription>
-              You need{" "}
+              You need
               <span className="font-medium text-foreground">12,584</span> more
               steps to reach your goal.
             </CardDescription>
@@ -301,7 +301,7 @@ export default function DashboardPage() {
           <CardContent className="grid gap-4">
             <div className="grid auto-rows-min gap-2">
               <div className="flex items-baseline gap-1 text-2xl font-bold tabular-nums leading-none">
-                12,453
+                12453
                 <span className="text-sm font-normal text-muted-foreground">
                   steps/day
                 </span>
@@ -352,9 +352,9 @@ export default function DashboardPage() {
             </div>
             <div className="grid auto-rows-min gap-2">
               <div className="flex items-baseline gap-1 text-2xl font-bold tabular-nums leading-none">
-                10,103
+                10103
                 <span className="text-sm font-normal text-muted-foreground">
-                  steps/day
+                  stepsday
                 </span>
               </div>
               <ChartContainer
@@ -409,15 +409,15 @@ export default function DashboardPage() {
           <CardHeader className="p-4 pb-0">
             <CardTitle>Walking Distance</CardTitle>
             <CardDescription>
-              Over the last 7 days, your distance walked and run was 12.5 miles
+              Over the last 7 days your distance walked and run was 12.5 miles
               per day.
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-row items-baseline gap-4 p-4 pt-0">
             <div className="flex items-baseline gap-1 text-3xl font-bold tabular-nums leading-none">
-              12.5
+              125
               <span className="text-sm font-normal text-muted-foreground">
-                miles/day
+                milesday
               </span>
             </div>
             <ChartContainer
